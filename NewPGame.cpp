@@ -60,6 +60,7 @@ void NewPGame::play_game() {
             cout << "\nCongratualtions, " << p.get_game_score() << "! you're the winner!\n";
             cout << "You had a final score of " << p.get_game_score();
             cout << " after " << p.get_turn().get_turn_count() << " turns.\n";
+            cout << "\nThanks for playing!";
         }
         current_player = (current_player + 1) % 2;  // Switch to next player
     }
